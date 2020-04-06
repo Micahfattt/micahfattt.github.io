@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+>
+<html >
+<head>
+	<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+<script type="text/javascript" src="js/sweetalert-dev.js"></script>
+<title>章明辉电影分享</title>
+<meta http-equiv="content-type" content="text/html;charset=gb2312">
+	<link rel="stylesheet" href="css/ft-carousel.css" />
+<style type="text/css">
+
+*{margin:0;padding:0;}
+
+#float_banner{position:absolute;top:0;;width:3000px;margin-left:-450px;height:60px;line-height:60px;text-align:center;background:#000;color:#fff;font-size:14px;font-weight:bold;z-index:2;}
+
+body{margin: 0;font-family: "微软雅黑";background-color: #1F1F1F;}
+.example {width: 1920px;height: 836px;font-size: 40px;text-align: center;margin: 20px auto;background-color: #464576;}
+.carousel-item{line-height: 336px;color: #fff;font-family:  Arial Black}
+#top{width: 1000px;height: 50px;}
+#nav{width: 1000px;height: 40px;}
+	#nav a{width: 100px;height: 40px;color:#fff;display: block;background:#000;float:left;text-align: center;vertical-align: middle;line-height: 40px;text-decoration: none;}
+	#nav a:hover{background: #fff;color: aqua}
+	.zimu{font: normal;font-size: 20px;color: aliceblue}
+	.biaoti{align-content: center;font-size: 80px;color:#F3F3F3}
+	.biaotihong{color: #9B0D27}
+	.wenzi{font-size: 20px;color: #D3CDCD}
+
+</style>
+	
+</head>
+<body>
+	<script>
+function alert(e){
+$("body").append('<div id="msg"><div id="msg_top">信息<span class="msg_close">×</span></div><div id="msg_cont">'+e+'</div><div class="msg_close" id="msg_clear">确定</div></div>');
+$(".msg_close").click(function (){
+$("#msg").remove();
+});
+}
+</script>
+
+
+<div id="float_banner"><img src="images/logo.png" width="57" height="52" alt=""/>章明辉电影分享</div> 
+	
+<script>
+	swal("电影名字：爱在黎明破晓前")
+	</script>
+<script language="javascript">
+var speed = 100;
+var scrollTop = null;
+var hold = 0;
+var float_banner;
+var pos = null;
+var timer = null;
+var moveHeight = null;
+float_banner = document.getElementById("float_banner");
+window.onscroll=scroll_ad;
+function scroll_ad(){
+ scrollTop = document.documentElement.scrollTop+document.body.scrollTop;
+ pos = scrollTop - float_banner.offsetTop;
+ pos = pos/10
+ moveHeight = pos>0?Math.ceil(pos):Math.floor(pos);
+ if(moveHeight!=0){
+  float_banner.style.top = float_banner.offsetTop+moveHeight+"px";
+  setTimeout(scroll_ad,speed);
+ }
+//alert(scrollTop);
+}
+</script>
+<div class="example">
+	<div class="ft-carousel" id="carousel_1">
+		<ul class="carousel-inner">
+			<li class="carousel-item"><img src="images/love/3.jpg" /></li>
+			<li class="carousel-item"><img src="images/love/5.jpg" /></li>
+			<li class="carousel-item"><img src="images/love/4.jpg" /></li>
+			
+		  <li class="carousel-item"><img src="images/love/6.jpg" /></li>
+			<li class="carousel-item"><img src="images/love/2.jpg" /></li>
+		</ul>
+	</div>
+</div>
+
+<table width="100%"border="0" ;cellspacing="0" ;cellpadding="0" >
+	  <tbody>
+	    <tr id="nav">
+			<td> <a href="#poster">海报</a></td>
+	      <td> <a href="#actor">演员</a></td>
+	      <td><a href="#story">剧情</a></td>
+	      <td> <a href="#yp">影评</a></td>
+	      <td> <a href="#zy">资源</a></td>
+	      <td><a href="#">相关</a></td>
+	      <td> <a href="#">其他</a></td>
+        </tr>
+  </tbody>
+</table>
+	<p class="zimu">&nbsp;</p>
+	<p class="zimu">&nbsp;</p>
+<p class="zimu"><marquee direction="left">I feel like this is,...some dream world we're in...
+
+Its like our time together is just ours, Its our own creation.
+
+It must be like I'm in your dream, and you in mine, or something.
+
+And what's so cool is that this whole evening,
+
+all our time together, shouldn't officially be happening.
+
+...Maybe that's why this feels so otherworldly.
+
+But then the morning comes, and we turn into pumpkins...</marquee></p>
+	<p class="zimu">&nbsp;</p>
+	<p class="zimu">&nbsp;</p>
+<hr>
+<p class="zimu">&nbsp;</p>
+	<p class="zimu">&nbsp;</p>
+<p class="zimu">&nbsp;</p>
+<div  id="poster" align="center" class="biaoti">THE <span class="biaotihong">POSTER</span></div>
+	<p class="zimu">&nbsp;</p>
+	<p class="zimu">&nbsp;</p>
+<p class="zimu">&nbsp;</p>
+	<center>
+<table width="2000" height="500" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td  align="center" width="1000" ><img src="images/love/1.jpg" width="1000" height="1620" alt=""/></td>
+      
+    </tr>
+  </tbody>
+	
+</table>
+	</center>
+	<p class="zimu">&nbsp;</p>
+	<p class="zimu">&nbsp;</p>
+<p class="zimu">&nbsp;</p>
+<div  id="actor" align="center" class="biaoti">THE <span class="biaotihong">PERFORMER
+</span></div>
+	<p class="zimu">&nbsp;</p>
+	<p class="zimu">&nbsp;</p>
+	<center>
+<table width="2000" height="500" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td width="1009" align="center" ><img src="images/love/nan1.jpg" width="400" height="500" alt=""/></td>
+      <td width="1009" align="center" ><img src="images/love/nan2.jpg" width="400" height="500" alt=""/></td>
+    </tr>
+  </tbody>
+</table></center>
+<p class="zimu">&nbsp;</p>
+	<p class="zimu">&nbsp;</p>
+	<center>
+<div align="center"  class="wenzi">身高5英尺10英寸的伊桑&middot;霍克是个敏感、英俊的人，操一口流利的法语和德语，会弹钢琴、拉小提琴和吹小号，多才多艺。
+<P>90年代他以一个有天赋的演员和一个有思想的少女招牌男友的面貌出现在观众面前。</P> <p>凭着若隐若现的古典气质和摇滚乐手般的不羁外形，博得了不少影迷的欢心。</P><P>他的表演非常气质化，善于通过人物外表捕捉其复杂的内心世界，被誉为“最富感性魅力的青年男星”。</p><p>&nbsp;</p><p>At that time, he was called leaf, and he didn't change his name to Joaquin until the early 1990s.</p><p>In 2005's new film "never move forward", marking the film with a phoenix style performance brand.</P><P> He was nominated for best actor at the 78th Academy Awards and best actor in comedy </P></div></center>
+<p class="zimu">&nbsp;</p>
+	<p class="zimu">&nbsp;</p>
+<p class="zimu">&nbsp;</p>
+<div  id="story" align="center" class="biaoti">THE <span class="biaotihong">STORY
+
+</span></div>
+	<p class="zimu">&nbsp;</p>
+<p class="zimu">&nbsp;</p>
+<center>
+<table width="2000" height="500" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+		<td width="200"></td>
+      <td   class="wenzi"width="500"><p>美国青年杰西（伊桑&middot;霍克 Ethan Hawke 饰）在火车上偶遇了法国女学生塞琳娜（朱莉&middot;德尔佩 Julie Delpy 饰），两人在火车上交谈甚欢。当火车到达维也纳时，杰西盛情邀请塞琳娜一起在维也纳游览一番，即使杰西翌日便要坐飞机离开。与杰西一见钟情的塞琳娜接受了杰西的邀请。&nbsp;<br />
+        他们一边游览城市，一边谈论着彼此的过去 ，彼此对生活的感想，两人了解越加深刻。他们非常珍惜这美妙的晚上，这对恋人一起经历了很多浪漫的经历因为他们约定在半年后再见，而此次约会将会在日出之间结束</p> </td>
+		<td width="100"></td>
+      <td ><img src="images/love/hua2.jpg" width="1000" height="500" alt=""/></td>
+    </tr>
+  </tbody>
+</table></center>
+	<p class="zimu">&nbsp;</p>
+	<p class="zimu">&nbsp;</p>
+	<div id="yp" align="center" class="biaoti">THE <span class="biaotihong">REVIEW
+
+</span></div>
+	<p class="zimu">&nbsp;</p>
+<p class="zimu">&nbsp;</p>
+<center>
+<table width="2000" height="500" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td width="1000" ><p class="wenzi">两个人在试听间里听爱情歌曲的那一段，局促的空间里，想看对方，又有些矜持，目光刚一接触就赶紧离开，那么一段长长的时间，很好。餐厅里互打电话。对话总是很聪明。&ldquo;很多人结婚的理由比这还少。&rdquo;</p>
+        <hr ><p class="wenzi">（第二部台词）&quot;从某种意义上来说，我所有的浪漫都在一夜之间消耗光了。我将永远不可能再有那种感觉了，就好像，那一夜不知道怎么引发了我的全部感情，我把这些感情都向你倾诉出来，而你却把它们都从我身边带走了&hellip;&quot; 这个夜晚，就是一生。&ldquo;我彻底了解一个人时，我才会真正喜欢他&rdquo;</p></td>
+		<td width="30"></td>
+      <td  width="1000"><p class="wenzi">这是一部极其动人的爱情片，但却也是一个极其简单的爱情故事：一对男女在火车上相遇，有了好感，一起在维也纳共度一夜，仅此而已。没有什么起伏曲折，没有发生什么让人刻骨铭心的事件将两人简单的感情升华；就只是正常的约会、吃饭、聊天、喝酒。这基本上就是一个没有什么情节的爱情故事。</p>
+        <p>&nbsp;</p><hr ><p class="wenzi">&ldquo;你之前提到过以后几年的光景，一对夫妻会开始厌恶对方，对彼此的一举一动都了如指掌因此而感到厌烦，我想我会有相反的发展，我对一个人越是了解就越是能真正的去爱他，他会梳某种头发，他会穿哪件T恤，他在某种场合一定会讲的故事，我相信那会是我爱一个人最真实的境界。&rdquo;</p></td>
+    </tr>
+  </tbody>
+</table></center>
+	<p class="zimu">&nbsp;</p>
+	<p class="zimu">&nbsp;</p>
+<p class="zimu">&nbsp;</p>
+<div id="zy" align="center" class="biaoti">THE <span class="biaotihong">RESOURCE
+
+</span></div>
+<p class="zimu">&nbsp;</p>
+	<center><video align="center" src="images/love/301370613.mp4" controls></video></center>
+	<p class="zimu">&nbsp;</p>
+<table  style="background: #000000" width="100%" height="50"border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td width="15">&nbsp;</td>
+      <td width="579"><img src="images/zufe.png" width="579" height="120" alt=""/></td>
+      <td width="308"><img src="images/sj.png" width="51" height="42" alt=""/></td>
+      <td width="290"><img src="images/wb.png" width="39" height="32" alt=""/></td>
+		<td width="391"><img src="images/wx.png" width="39" height="32" alt=""/></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td class="wenzi">19信工章明辉</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/ft-carousel.min.js"></script>
+<script type="text/javascript">
+	$("#carousel_1").FtCarousel();
+
+	$("#carousel_2").FtCarousel({
+		index: 1,
+		auto: false
+	});
+
+	$("#carousel_3").FtCarousel({
+		index: 0,
+		auto: true,
+		time: 3000,
+		indicators: false,
+		buttons: true
+	});
+</script>
+</body>
+</html>

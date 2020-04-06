@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	background-image: url(01cd21554523950000019ae97a29db.jpg@1280w_1l_2o_100sh.jpg);
+	background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%; font-size: 14px;color:#09628E;text-indent: 2em;line-height: 2em;
+}
+	h1{font-size:60px ;font-family: "仿宋"}
+.fanhui{font-size: 20px;text-decoration: none;color: aliceblue}
+	.a1{text-decoration: none; href="indexUntitled-1.html";font-size:25px;text-decoration: none;font-family:"黑体";color:#07516C}
+	.x123{font-size: 20px;text-decoration: none;color: aliceblue}
+	.wo{font-size: 20px;font-weight:bolder;}
+	p:hover{background:#B4DDE8;border-radius: 10px;}
+    .wo:hover{font-size: 30px}
+	.kuang{background:#065E96;margin: 0;padding: 0}
+img:hover{opacity: 0.8;margin-left: 5px;}
+p.img:hover{border: solid 1px #065E96;}

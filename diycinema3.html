@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+>
+<html >
+<head>
+<title>章明辉电影分享</title>
+		<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+<script type="text/javascript" src="js/sweetalert-dev.js"></script>
+<meta http-equiv="content-type" content="text/html;charset=gb2312">
+	<link rel="stylesheet" href="css/ft-carousel.css" />
+<style type="text/css">
+*{margin:0;padding:0;}
+
+#float_banner{position:absolute;top:0;;width:3000px;margin-left:-450px;height:60px;line-height:60px;text-align:center;background:#000;color:#fff;font-size:14px;font-weight:bold;z-index:2;}
+
+body{margin: 0;font-family: "微软雅黑";background-color: #1F1F1F;}
+.example {width: 1920px;height: 836px;font-size: 40px;text-align: center;margin: 20px auto;background-color: #464576;}
+.carousel-item{line-height: 336px;color: #fff;font-family:  Arial Black}
+#top{width: 1000px;height: 50px;}
+#nav{width: 1000px;height: 40px;}
+	#nav a{width: 100px;height: 40px;color:#fff;display: block;background:#000;float:left;text-align: center;vertical-align: middle;line-height: 40px;text-decoration: none;}
+	#nav a:hover{background: #fff;color: aqua}
+	.zimu{font: normal;font-size: 20px;color: aliceblue}
+	.biaoti{align-content: center;font-size: 80px;color:#F3F3F3}
+	.biaotihong{color: #9B0D27}
+	.wenzi{font-size: 20px;color: #D3CDCD}
+</style>
+	
+</head>
+<body>
+<script>
+	swal("电影名字：千与千寻")
+	</script>	
+
+<div id="float_banner"><img src="images/logo.png" width="57" height="52" alt=""/>章明辉电影分享</div> 
+	
+
+<script language="javascript">
+var speed = 100;
+var scrollTop = null;
+var hold = 0;
+var float_banner;
+var pos = null;
+var timer = null;
+var moveHeight = null;
+float_banner = document.getElementById("float_banner");
+window.onscroll=scroll_ad;
+function scroll_ad(){
+ scrollTop = document.documentElement.scrollTop+document.body.scrollTop;
+ pos = scrollTop - float_banner.offsetTop;
+ pos = pos/10
+ moveHeight = pos>0?Math.ceil(pos):Math.floor(pos);
+ if(moveHeight!=0){
+  float_banner.style.top = float_banner.offsetTop+moveHeight+"px";
+  setTimeout(scroll_ad,speed);
+ }
+//alert(scrollTop);
+}
+</script>
+<div class="example">
+	<div class="ft-carousel" id="carousel_1">
+		<ul class="carousel-inner">
+			<li class="carousel-item"><img src="images/qx/1.jpg" /></li>
+			<li class="carousel-item"><img src="images/qx/2.jpg" /></li>
+			<li class="carousel-item"><img src="images/qx/3.jpg" /></li>
+			
+		  <li class="carousel-item"><img src="images/qx/4.jpg" /></li>
+			<li class="carousel-item"><img src="images/qx/6.jpg" /></li>
+		</ul>
+	</div>
+</div>
+<table width="100%"border="0" ;cellspacing="0" ;cellpadding="0" >
+	  <tbody>
+	    <tr id="nav">
+			<td> <a href="#poster">海报</a></td>
+	      <td> <a href="#actor">演员</a></td>
+	      <td><a href="#story">剧情</a></td>
+	      <td> <a href="#yp">影评</a></td>
+	      <td> <a href="#zy">资源</a></td>
+	      <td><a href="#">相关</a></td>
+	      <td> <a href="#">其他</a></td>
+        </tr>
+  </tbody>
+</table>
+	<p class="zimu">&nbsp;</p>
+	<p class="zimu">&nbsp;</p>
+<p class="zimu"><marquee direction="right">不要变太胖，否则会被人宰了吃的。</marquee></p>
+	<p class="zimu">&nbsp;</p>
+	<p class="zimu">&nbsp;</p>
+<hr>
+<p class="zimu">&nbsp;</p>
+	<p class="zimu">&nbsp;</p>
+<p class="zimu">&nbsp;</p>
+<div  id="poster" align="center" class="biaoti">THE <span class="biaotihong">POSTER</span></div>
+	<p class="zimu">&nbsp;</p>
+	<p class="zimu">&nbsp;</p>
+<p class="zimu">&nbsp;</p>
+	<center>
+<table width="2000" height="500" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td  align="center" width="1000" ><img src="images/qx/5.jpg" width="1000" height="1620" alt=""/></td>
+      
+    </tr>
+  </tbody>
+	
+</table>
+	</center>
+	<p class="zimu">&nbsp;</p>
+	<p class="zimu">&nbsp;</p>
+<p class="zimu">&nbsp;</p>
+<div  id="actor" align="center" class="biaoti">THE <span class="biaotihong">PERFORMER
+</span></div>
+	<p class="zimu">&nbsp;</p>
+	<p class="zimu">&nbsp;</p>
+	<center>
+<table width="2000" height="500" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td width="1009" align="center" ><img src="images/qx/8.jpg" width="400" height="500" alt=""/></td>
+      <td width="1009" align="center" ><img src="images/qx/9.jpg" width="400" height="500" alt=""/></td>
+    </tr>
+  </tbody>
+</table></center>
+<p class="zimu">&nbsp;</p>
+	<p class="zimu">&nbsp;</p>
+	<center>
+<div align="center"  class="wenzi">宫崎骏可以说是日本动画界的一个传奇，可以说没有他的话日本的动画事业会大大的逊色。
+<P>他是第一位将动画上升到人文高度的思想者，同时也是日本三代动画家中，承前启后的精神支柱人物。</P> 
+<p>宫崎骏在打破手冢治虫巨人阴影的同时，用自己坚毅的性格和永不妥协的奋斗又为后代动画家做出了榜样。</P>
+<P>　宫崎骏的动画片是能够和迪斯尼、梦工厂共分天下的一支重要的东方力量。</p>
+<p>&nbsp;</p><p>&nbsp;</p></div></center>
+<p class="zimu">&nbsp;</p>
+	<p class="zimu">&nbsp;</p>
+<p class="zimu">&nbsp;</p>
+<div  id="story" align="center" class="biaoti">THE <span class="biaotihong">STORY
+
+</span></div>
+	<p class="zimu">&nbsp;</p>
+<p class="zimu">&nbsp;</p>
+<center>
+<table width="2000" height="500" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+		<td width="200"></td>
+      <td   class="wenzi"width="500"><p>千寻和爸爸妈妈一同驱车前往新家，在郊外的小路上不慎进入了神秘的隧道&mdash;&mdash;他们去到了另外一个诡异世界&mdash;一个中世纪的小镇。远处飘来食物的香味，爸爸妈妈大快朵颐，孰料之后变成了猪！这时小镇上渐渐来了许多样子古怪、半透明的人。&nbsp;<br />
+        　　千寻仓皇逃出，一个叫小白的人救了他，喂了她阻止身体消 失的药，并且告诉她怎样去找锅炉爷爷以及汤婆婆，而且必须获得一份工作才能不被魔法变成别的东西。&nbsp;<br />
+        　　千寻在小白的帮助下幸运地获得了一份在浴池打杂的工作。渐渐她不再被那些怪模怪样的人吓倒，并从小玲那儿知道了小白是凶恶的汤婆婆的弟子。&nbsp;<br />
+        　　一次，千寻发现小白被一群白色飞舞的纸人打伤，为了救受伤的小白，她用河神送给她的药丸驱出了小白身体内的封印以及守封印的小妖精，但小白还是没有醒过来。&nbsp;<br />
+        　　为了救小白，千寻又踏上了她的冒险之旅。</p></td>
+		<td width="100"></td>
+      <td ><img src="images/qx/4.jpg" width="1000" height="500" alt=""/></td>
+    </tr>
+  </tbody>
+</table></center>
+	<p class="zimu">&nbsp;</p>
+	<p class="zimu">&nbsp;</p>
+	<div id="yp" align="center" class="biaoti">THE <span class="biaotihong">REVIEW
+
+</span></div>
+	<p class="zimu">&nbsp;</p>
+<p class="zimu">&nbsp;</p>
+<center>
+<table width="2000" height="500" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td width="1000" ><p class="wenzi">第一次看宫崎骏的电影年龄说起来有点惭愧，家里人对我管的比较紧，高考毕业后才把他的作品都看了一遍，但是千与千寻绝对是我很小的时候就接触过，不过那时候了解的不够深刻，只记得里面很多画面让人很不可思议，比如人变猪类似这样，宫崎骏的电影都让人有种很温暖贴心的感觉，真的很好看！</p>
+        <hr ><p class="wenzi">有一点模糊的小爱情...小白龙报恩，千寻想起了她自己及小情人儿的名字。帮客人洗澡，小煤球儿来回跑。这些经历给我多好玩儿，我一定不会变成大猪，不乱吃东西，给客人洗得干干净净。小白龙永远跟我好^^回到14岁：）</p></td>
+		<td width="30"></td>
+      <td  width="1000"><p class="wenzi">直到千寻回忆起琥珀川落水的童年记忆之后，才发现导演想借这个故事承载的比我们想象中还要多，包括河神老白龙的外表被误认为是超大型的腐烂之神。说人类贪婪，不工作就会变成肥猪，汤婆婆和小妖怪们到了无脸男面前，也没有什么不一样，世上无论人神妖都有两面，都没有什么不一样，除了白龙和千寻这样的少男少女。宫崎骏的厉害之处，就在于把深奥的故事放到简单的情境放到简单的情境里，看着老少咸宜，却又能让有心人久久地玩味。</p>
+        <hr ><p class="wenzi">隔那么多年再看，还是会二话不说就爱上温柔的白龙，还是会被无脸男捧出的一把木牌打动，还是想坐在阁楼上边吃豆包边看电车从海上驶过，但是&hellip;&hellip;再也说不出&ldquo;想留在那样的世界再也不出来&rdquo;的话了！愿幻想的世界里没有工作！ 话说千寻现在也28岁了啊，不知道有没有和白龙重逢，如果按好故事的标准，应该是没有吧？她大概已经变成了普通的上班族，每天搭末班电车回家，只是在路过每一条河流时，会想起少女时曾经爱过一条龙。</p></td>
+    </tr>
+  </tbody>
+</table></center>
+	<p class="zimu">&nbsp;</p>
+	<p class="zimu">&nbsp;</p>
+<p class="zimu">&nbsp;</p>
+<div id="zy" align="center" class="biaoti">THE <span class="biaotihong">RESOURCE
+
+</span></div>
+<p class="zimu">&nbsp;</p>
+	<center><video align="center" src="images/qx/402480761.mp4" controls></video></center>
+	<p class="zimu">&nbsp;</p>
+	<table  style="background: #000000" width="100%" height="50"border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td width="15">&nbsp;</td>
+      <td width="579"><img src="images/zufe.png" width="579" height="120" alt=""/></td>
+      <td width="308"><img src="images/sj.png" width="51" height="42" alt=""/></td>
+      <td width="290"><img src="images/wb.png" width="39" height="32" alt=""/></td>
+		<td width="391"><img src="images/wx.png" width="39" height="32" alt=""/></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td class="wenzi">?19信工章明辉</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/ft-carousel.min.js"></script>
+<script type="text/javascript">
+	$("#carousel_1").FtCarousel();
+
+	$("#carousel_2").FtCarousel({
+		index: 1,
+		auto: false
+	});
+
+	$("#carousel_3").FtCarousel({
+		index: 0,
+		auto: true,
+		time: 3000,
+		indicators: false,
+		buttons: true
+	});
+</script>
+</body>
+</html>

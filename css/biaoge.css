@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+
+#nav,#copyright,#xqzl{front-size:14px;color: #fff;text-align: center;text-decoration: none;}
+p{text-indent: 2em;line-height: 2em;margin: 0;}
+p:hover{background: #ccc;border-radius: 30px;}
+body{font-size: 14px ;color: #333;background-color: #eee;background-image: url(../images/bj.jpg);background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;cursor: pointer;}

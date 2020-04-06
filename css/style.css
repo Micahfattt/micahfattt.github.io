@@ -1,7 +1,33 @@
-body {
-  margin: 0;
-  background: black;
-}
-canvas {
-  position: absolute;
-}
+@charset "utf-8";
+/* CSS Document */
+body{margin: 0; padding: 0; font-size: 14px;}
+a{text-decoration: none;}
+
+/* 页头 */
+#img{width:3600px; height:400px; background: #fff; margin: auto;}
+#top{width:1000px; height:140px; background: #006; margin: auto; margin-top: -400px; opacity: 0.8}
+#info{width:1000px; margin: auto; height:150px;}
+#logo{width:40px; height: 60px; float: left; padding: 20px;}
+#logo img{width:60px;}
+#user{width:500px; height: 40px; float: right; padding-top: 50px;}
+#user a{display: block; width:80px; height: 40px; color: #fff; text-decoration: none; float: left}
+
+/* 菜单 */
+#nav{width:1000px; height:40px; float:left; background: #fff;}
+#nav li{width:100px; height:40px; background-color: #006; color:#fff; }
+#nav>ul{width:1000px;}
+#nav>ul ul{display: none;}
+#nav>ul>li{float: left;}
+#nav li a{display: block; width:100px; height:40px; color: #fff;}
+#nav li a:hover{background-color: #ccc; color:#006;}
+
+
+#bottom{width:1600px; height: 150px; background: #009; margin: auto;}
+
+
+
+
+
+
+
+
